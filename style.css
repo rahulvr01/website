@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#heading{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid black;
+}
+#heading img{
+    width: 50px;
+    height: 50px;
+    
+}
+#heading nav ul{
+    display: flex;
+    gap: 60px;
+}
+#heading nav ul li{
+    color: green;
+    
+}
