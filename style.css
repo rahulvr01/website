@@ -1,6 +1,8 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 5px;
+    padding: 5px;
+    
+    
 }
 #heading{
     margin: 5px;
@@ -8,17 +10,31 @@
     display: flex;
     justify-content: space-between;
     border: 5px solid black;
+    margin: auto;
+    background-color: lightblue;
+    border-radius: 10px;
+    align-items: center;
 }
 #heading img{
     width: 50px;
     height: 50px;
-    
+    border-radius: 10px;
 }
+
+
 #heading nav ul{
     display: flex;
-    gap: 60px;
+    gap: 50px;
+    list-style: none;
 }
 #heading nav ul li{
-    color: green;
-    
+    color: red;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+#heading button{
+    padding: 20px;
+    border-radius: 20px;
 }
